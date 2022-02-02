@@ -1,11 +1,11 @@
 # Site settings
-title: None's Blog
-SEOTitle: None的博客 | None's Blog
+title: Anonymitys Blog
+SEOTitle: Anonymity的博客 | Anonymity's Blog
 header-img: img/home-bg.jpg
-email: 
-description: "无-None"
-keyword: "None，无"
-url: "https://yuanbao07.github.io"              # your host, for absolute URL
+#email: 
+description: "匿名-Anonymity"
+keyword: "Anonymity，匿名"
+url: "https://Anonymity07.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:    
-zhihu_username:     
-github_username:    yuanbao07
-twitter_username:   
+#weibo_username:    
+#zhihu_username:     
+github_username:    Anonymity07
+#twitter_username:   
 #facebook_username:  
 #linkedin_username:  
 
@@ -59,10 +59,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+#disqus_username: 
 
 # Netease settings
-netease_comment: false
+#netease_comment: false
 
 
 
@@ -79,7 +79,7 @@ ba_track_id: '3caa3ae804abddc8e4e03dc4221ad6a9'
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "无 <br> Here is nothing."
-sidebar-avatar: # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/anonymity07.png# use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
