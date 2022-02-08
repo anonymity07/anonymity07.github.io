@@ -61,7 +61,20 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
-                
+                <!-- valine 评论 start -->
+		<div id="comments"></div>
+		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+		<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+		<script>
+    		new Valine({
+        		el: '#comments',
+        		app_id: '0aAKlq5ob9wBC0WNnWAqa3ca-gzGzoHsz',
+        		app_key: '6AwVbPWDtw3Fe60IrDYRJugO',
+        		placeholder:'Just go go',
+        		visitor: true
+    		});
+		</script>
+		<!-- valine 评论 end -->
             </div>  
 
     <!-- Side Catalog Container -->
