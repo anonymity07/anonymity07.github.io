@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title></title>
+    <url>/2023/12/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="GitHub-Pages配置自定义域名-CDN加速（Cloudflare）"><a href="#GitHub-Pages配置自定义域名-CDN加速（Cloudflare）" class="headerlink" title="GitHub Pages配置自定义域名+CDN加速（Cloudflare）"></a>GitHub Pages配置自定义域名+CDN加速（Cloudflare）</h1><h2 id="一-效果"><a href="#一-效果" class="headerlink" title="一.效果"></a>一.效果</h2><p>加速前<br><a href="https://postimg.cc/Lgd4v3Ss"><img src="https://i.postimg.cc/5yyH4sk8/07153-FC0-DAEB-4-C84-8050-9-D2-B375-A9-F04.jpg" alt="07153-FC0-DAEB-4-C84-8050-9-D2-B375-A9-F04.jpg"></a><br>加速后<br><a href="https://postimg.cc/w72Hsp1M"><img src="https://i.postimg.cc/htWG64gL/63-EE1-C66-2564-43-F7-983-C-9287-DE9-B8-D00.jpg" alt="63-EE1-C66-2564-43-F7-983-C-9287-DE9-B8-D00.jpg"></a></p>
+<p>可以看到加速后大部分地区都是绿的</p>
+<h2 id="二-方法"><a href="#二-方法" class="headerlink" title="二.方法"></a>二.方法</h2><p>cloudflare注册账号绑定自定义域名，dns添加cname解析@和www到github pages地址（xxx.github.io），到github仓库的pages设置界面</p>
+<p><a href="https://postimg.cc/5XtJBRz3"><img src="https://i.postimg.cc/P5WqjGrB/B0-C55-CF4-BFB7-4-DF9-BFC0-6-E404-B9-F4675.jpg" alt="B0-C55-CF4-BFB7-4-DF9-BFC0-6-E404-B9-F4675.jpg"></a></p>
+<p>在cusdom domain一栏添加自己的自定义域名，点击save<br>把cloudflare里的ssl调成flexible。<br>完事。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>2022-2-18-优质网站推荐</title>
+    <url>/2023/12/31/2022-2-18-%E4%BC%98%E8%B4%A8%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>分享几个有用的网站，收录自互联网，侵删</p>
+<h2 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h2><p><a href="https://music.qier222.com/">https://music.qier222.com/</a><br>网易曲库，ui很漂亮</p>
+<h2 id="Ai人工智能"><a href="#Ai人工智能" class="headerlink" title="Ai人工智能"></a>Ai人工智能</h2><p><a href="https://ai.baidu.com/">https://ai.baidu.com/</a><br>有许多可以试用，可以用百度账号登录，api大多有免费次数</p>
+<h2 id="无版权图片"><a href="#无版权图片" class="headerlink" title="无版权图片"></a>无版权图片</h2><p><a href="https://pixabay.com/">https://pixabay.com/</a><br>图片数量极大<br><a href="https://www.pexels.com/zh-cn/">https://www.pexels.com/zh-cn/</a><br>人气很大，图片数量也不小</p>
+<h2 id="测速网站"><a href="#测速网站" class="headerlink" title="测速网站"></a>测速网站</h2><p><a href="https://www.speedtest.cn/">https://www.speedtest.cn/</a><br>不解释</p>
+<h2 id="程序员入门"><a href="#程序员入门" class="headerlink" title="程序员入门"></a>程序员入门</h2><p><a href="https://www.w3cschool.cn/">https://www.w3cschool.cn/</a><br><a href="https://www.runoob.com/">https://www.runoob.com/</a></p>
+<h2 id="代码源泉"><a href="#代码源泉" class="headerlink" title="代码源泉"></a>代码源泉</h2><p><a href="https://github.com/">https://github.com/</a></p>
+<h2 id="度盘不限速"><a href="#度盘不限速" class="headerlink" title="度盘不限速"></a>度盘不限速</h2><p><a href="https://kinhdown.com/">https://kinhdown.com/</a><br>（尽量别登录）</p>
+<h1 id="。。。。。。有时间慢慢更（偷懒）"><a href="#。。。。。。有时间慢慢更（偷懒）" class="headerlink" title="。。。。。。有时间慢慢更（偷懒）"></a>。。。。。。有时间慢慢更（偷懒）</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/12/31/2022-2-5-%E5%BB%BA%E7%AB%99%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="建站记"><a href="#建站记" class="headerlink" title="建站记"></a>建站记</h1><p>这篇文章简单记录一下本博客的建站过程。</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
+<li>Fork一个jekyll模板仓库(感谢<a href="https://github.com/Huxpro">@Huxpro</a>)</li>
+<li>更改仓库名，打开Github Pages</li>
+<li>修改配置文件</li>
+<li>写博文</li>
+</ul>
+<h2 id="一-Fork仓库"><a href="#一-Fork仓库" class="headerlink" title="一.Fork仓库"></a>一.Fork仓库</h2><blockquote>
+<p>注：这一步可以自己安装jekyll，但是我一直失败……所以这里我选择了fork现成的。</p>
+</blockquote>
+<p>选择一个模板仓库(我选了黄玄大神的)，点击fork。<br><img src="https://anonymity07.github.io/img/in-post/1-create/fork.png" alt="fork"></p>
+<h2 id="二-更改仓库名并打开Github-Pages"><a href="#二-更改仓库名并打开Github-Pages" class="headerlink" title="二.更改仓库名并打开Github Pages"></a>二.更改仓库名并打开Github Pages</h2><p>进入仓库，点settings，将仓库名改为“username.github.io”(username为你的github用户名)<br><img src="https://anonymity07.github.io/img/in-post/1-create/change.png" alt="change"></p>
+<p>翻到pages，选择branch：main，&#x2F;root，save。</p>
+<p><img src="https://anonymity07.github.io/img/in-post/1-create/pages.png" alt="pages"></p>
+<h2 id="三-修改配置文件"><a href="#三-修改配置文件" class="headerlink" title="三.修改配置文件"></a>三.修改配置文件</h2><p>打开_config.yml，修改个人信息(具体过程略)</p>
+<h2 id="四-写博文"><a href="#四-写博文" class="headerlink" title="四.写博文"></a>四.写博文</h2><blockquote>
+<p>博文文件名格式：yyyy-mm-dd-name.md(name为博客标题)；文章路径：_posts文件夹下</p>
+</blockquote>
+<p>删除原仓库的文章，新建一篇文章(文件名格式如上），在里面用markdown写下你想写的内容吧！<br>博客到这里已经建好了，接下来要做的：个性化，统计，评论系统，等等，以后再说。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>2022-2-2-这个博客开放啦！This Blog Opens!</title>
+    <url>/2023/12/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/</url>
+    <content><![CDATA[<p>做个记录</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>小米4a路由器刷入openwrt</title>
+    <url>/2023/12/31/2023-6-12-%E5%B0%8F%E7%B1%B34a%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E5%85%A5openwrt/</url>
+    <content><![CDATA[<p>一、参考资料</p>
+<p>二.刷入</p>
+<p>1.刷入breed</p>
+<p>#小米4a不能用breed刷入官版openwrt!</p>
+<p>1.使用工具openwrtinvasion开官方固件的ssh,putty接入</p>
+<p>文件+教程链接:<a href="https://github.com/acecilia/OpenWRTInvasion">https://github.com/acecilia/OpenWRTInvasion</a></p>
+<p>2.上传固件</p>
+<p>可以用各种方式上传!</p>
+<p>3.刷入breed（可略过）</p>
+<p><code>mtd -r write /tmp/breed-mt7621-pbr-m1.bin Bootloader</code></p>
+<p>4.刷入openwrt</p>
+<p>（1）官版</p>
+<p><a href="https://downloads.openwrt.org/releases/23.05.0-rc1/targets/ramips/mt7621/">https://downloads.openwrt.org/releases/23.05.0-rc1/targets/ramips/mt7621/</a></p>
+<p><code>cd /tmp</code></p>
+<p><code>mtd -e OS1 -r write xiaomi_mi-router-4a-gigabit-squashfs-sysupgrade.bin OS1</code></p>
+<p>（2）可以编译定制固件</p>
+<p>提供一个教程:<a href="https://www.bilibili.com/read/cv21136299">https://www.bilibili.com/read/cv21136299</a></p>
+<p>提供一个编译好的固件:<a href="https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=4054821&ordertype=1&simpletype=no">https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=4054821&amp;ordertype=1&amp;simpletype=no</a></p>
+<p><del>可以</del>必须用breed刷入.</p>
+<p>拔掉电源线.按往reset不放,插电开机进入breed。网线连接电脑网口与路由lan口.</p>
+<p>电脑访问192.168.1.1</p>
+<p>先备份eeprom.mac地址再刷入（略)</p>
+<p>3.开机</p>
+<p>待led指示灯由黄灯闪烁变为蓝灯常亮后则开机成功.</p>
+<p>总体体验上,openwrt的开源驱动跑在硬路由上确实效果欠佳.有很高延迟.</p>
+<p>#刷入pandorabox延迟有所好转.</p>
+<p>以上.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/12/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
