@@ -112,37 +112,62 @@
 <h2 id="1，安装node-js环境"><a href="#1，安装node-js环境" class="headerlink" title="1，安装node.js环境"></a>1，安装node.js环境</h2><p>访问node.js官网，”<a href="https://nodejs.org/en%22%EF%BC%8C%E4%B8%8B%E8%BD%BDLTS%E9%95%BF%E6%9C%9F%E6%94%AF%E6%8C%81%E7%89%88%EF%BC%8C%E5%AE%89%E8%A3%85">https://nodejs.org/en&quot;，下载LTS长期支持版，安装</a>.<br>检查：<code>node -v</code> <code>npm -v</code></p>
 <h2 id="2，npm换源"><a href="#2，npm换源" class="headerlink" title="2，npm换源"></a>2，npm换源</h2><p><code>npm config set registry https://registry.npmmirror.com</code>  </p>
 <h2 id="3，安装hexo"><a href="#3，安装hexo" class="headerlink" title="3，安装hexo"></a>3，安装hexo</h2><p><code>npm install -g hexo-cli</code><br>检查：<code>hexo -v</code>  </p>
-<h2 id="4，hexo初始化"><a href="#4，hexo初始化" class="headerlink" title="4，hexo初始化"></a>4，hexo初始化</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init blog_name</span><br><span class="line">cd blog_name</span><br><span class="line">npm install</span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">## 5，查看效果  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">~~~</span><br><span class="line">hexo g</span><br><span class="line">hexo s //打开本地服务</span><br><span class="line">~~~  </span><br><span class="line"></span><br><span class="line">浏览器打开http://localhost:4000看效果  </span><br><span class="line">命令行中Ctrl+C关闭本地服务</span><br><span class="line">## 6，配置git  </span><br><span class="line"></span><br><span class="line">github新建repo，名称github_username.github.io（github_username换成自己的github用户名）</span><br><span class="line"></span><br><span class="line">安装git  </span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>git config –global user.name “xxxxxx”<br>git config –global user.email “<a href="mailto:&#x78;&#120;&#x78;&#x78;&#120;&#x78;&#x40;&#x78;&#120;&#x78;&#x2e;&#x63;&#x6f;&#109;">&#x78;&#120;&#x78;&#x78;&#120;&#x78;&#x40;&#x78;&#120;&#x78;&#x2e;&#x63;&#x6f;&#109;</a>“<br>ssh-keygen -t rsa -C “your_email”</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">在&quot;C:\Users\username\ .ssh&quot;目录找到id_rsa.pub文件  </span><br><span class="line">在Github的设置中，找到SSH and GPG keys，新建SSH Key，记事本打开id_rsa.pub文件，将内容复制到Key，标题随便起，添加Key。  </span><br><span class="line"></span><br><span class="line">## 7，部署  </span><br><span class="line">打开`_config.yml`，底部deploy改成  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">~~~</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:github_username/github_username.github.io.git</span><br><span class="line">  branch: main</span><br><span class="line">~~~  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">运行`npm install hexo-deployer-git --save`  </span><br><span class="line"></span><br><span class="line">部署代码：  </span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>hexo clean<br>hexo generate<br>hexo deploy</p>
-<pre><code>
+<h2 id="4，hexo初始化"><a href="#4，hexo初始化" class="headerlink" title="4，hexo初始化"></a>4，hexo初始化</h2><pre>
+<code>hexo init blog_name
+cd blog_name
+npm install
+</code>
+</pre>
 
-## 8，cloudflare配置（自定义域名+cdn加速，可省略）  
-[![a.png](https://i.postimg.cc/VvK3myKY/a.png)](https://postimg.cc/H87S9NGK)  
-添加如上几条dns记录，**暂时都关掉代理，设成仅dns；ssl/tls设成完全（严格）**  
+<h2 id="5，查看效果"><a href="#5，查看效果" class="headerlink" title="5，查看效果"></a>5，查看效果</h2><pre>
+<code>hexo g
+hexo s //打开本地服务
+</code>
+</pre>
 
-## 9，github pages 配置  
-来到GitHub repo settings中的pages页面，  
-[![b.png](https://i.postimg.cc/mZ1XrHhY/b.png)](https://postimg.cc/fkZj2kcy)  
-如图，三步。  
-回到cloudflare，打开代理。
+<p>浏览器打开<a href="http://localhost:4000看效果">http://localhost:4000看效果</a><br>命令行中Ctrl+C关闭本地服务</p>
+<h2 id="6，配置git"><a href="#6，配置git" class="headerlink" title="6，配置git"></a>6，配置git</h2><p>github新建repo，名称github_username.github.io（github_username换成自己的github用户名）</p>
+<p>安装git  </p>
+<pre>
+<code>git config --global user.name "xxxxxx"
+git config --global user.email "xxxxxx@xxx.com"
+ssh-keygen -t rsa -C "your_email"
+</code>
+</pre>
 
-## 10，NexT主题  
+
+<p>在”C:\Users\username\ .ssh”目录找到id_rsa.pub文件<br>在Github的设置中，找到SSH and GPG keys，新建SSH Key，记事本打开id_rsa.pub文件，将内容复制到Key，标题随便起，添加Key。  </p>
+<h2 id="7，部署"><a href="#7，部署" class="headerlink" title="7，部署"></a>7，部署</h2><p>打开<code>_config.yml</code>，底部deploy改成  </p>
+<pre>
+<code>deploy:
+  type: git
+  repository: git@github.com:github_username/github_username.github.io.git
+  branch: main
+</code>
+</pre>
 
 
-~~~
-cd hexo-site
+<p>运行<code>npm install hexo-deployer-git --save</code>  </p>
+<p>部署代码：  </p>
+<pre>
+<code>hexo clean
+hexo generate
+hexo deploy
+</code>
+</pre>
+
+
+<h2 id="8，cloudflare配置（自定义域名-cdn加速，可省略）"><a href="#8，cloudflare配置（自定义域名-cdn加速，可省略）" class="headerlink" title="8，cloudflare配置（自定义域名+cdn加速，可省略）"></a>8，cloudflare配置（自定义域名+cdn加速，可省略）</h2><p><a href="https://postimg.cc/H87S9NGK"><img src="https://i.postimg.cc/VvK3myKY/a.png" alt="a.png"></a><br>添加如上几条dns记录，<strong>暂时都关掉代理，设成仅dns；ssl&#x2F;tls设成完全（严格）</strong>  </p>
+<h2 id="9，github-pages-配置"><a href="#9，github-pages-配置" class="headerlink" title="9，github pages 配置"></a>9，github pages 配置</h2><p>来到GitHub repo settings中的pages页面，<br><a href="https://postimg.cc/fkZj2kcy"><img src="https://i.postimg.cc/mZ1XrHhY/b.png" alt="b.png"></a><br>如图，三步。<br>回到cloudflare，打开代理。</p>
+<h2 id="10，NexT主题"><a href="#10，NexT主题" class="headerlink" title="10，NexT主题"></a>10，NexT主题</h2><pre>
+<code>cd hexo-site
 git clone https://github.com/next-theme/hexo-theme-next themes/next
-~~~  
+</code>
+</pre>
 
 
-打开站点`_config.yml`，  
-翻到最后，修改为：`theme: next`
-
-## 11，NexT配置/美化  
-个人喜好，自行百度
-</code></pre>
+<p>打开站点<code>_config.yml</code>，<br>翻到最后，修改为：<code>theme: next</code></p>
+<h2 id="11，NexT配置-美化"><a href="#11，NexT配置-美化" class="headerlink" title="11，NexT配置&#x2F;美化"></a>11，NexT配置&#x2F;美化</h2><p>个人喜好，自行百度</p>
 ]]></content>
   </entry>
 </search>
