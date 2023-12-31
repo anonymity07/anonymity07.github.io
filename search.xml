@@ -11,6 +11,12 @@
 ]]></content>
   </entry>
   <entry>
+    <title>2022-2-2-这个博客开放啦！This Blog Opens!</title>
+    <url>/2023/12/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/</url>
+    <content><![CDATA[<p>做个记录</p>
+]]></content>
+  </entry>
+  <entry>
     <title>2022-2-18-优质网站推荐</title>
     <url>/2023/12/31/2022-2-18-%E4%BC%98%E8%B4%A8%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>分享几个有用的网站，收录自互联网，侵删</p>
@@ -45,12 +51,6 @@
 <p>博文文件名格式：yyyy-mm-dd-name.md(name为博客标题)；文章路径：_posts文件夹下</p>
 </blockquote>
 <p>删除原仓库的文章，新建一篇文章(文件名格式如上），在里面用markdown写下你想写的内容吧！<br>博客到这里已经建好了，接下来要做的：个性化，统计，评论系统，等等，以后再说。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>2022-2-2-这个博客开放啦！This Blog Opens!</title>
-    <url>/2023/12/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/</url>
-    <content><![CDATA[<p>做个记录</p>
 ]]></content>
   </entry>
   <entry>
@@ -101,6 +101,32 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/12/31/%E5%BB%BA%E7%AB%99%E8%AE%B0-2/</url>
+    <content><![CDATA[<h1 id="建站记2"><a href="#建站记2" class="headerlink" title="建站记2"></a>建站记2</h1><p>（全文共526字，预计阅读时间1-2分钟）  </p>
+<p>新年快乐！<br>因为各种原因，本博客已经很久没有维护，发现已经无法访问，加上原本使用的valine评论系统存在xss漏洞，且原先使用的主题已经久未更新，决定放弃修复，直接换用Hexo+NexT主题，评论系统换用livere来必力，简单记录。  </p>
+<p><em>快速，简洁且高效的博客框架</em><br><em>——摘自Hexo官网</em>  </p>
+<h2 id="1，安装node-js环境"><a href="#1，安装node-js环境" class="headerlink" title="1，安装node.js环境"></a>1，安装node.js环境</h2><p>访问node.js官网，”<a href="https://nodejs.org/en%22%EF%BC%8C%E4%B8%8B%E8%BD%BDLTS%E9%95%BF%E6%9C%9F%E6%94%AF%E6%8C%81%E7%89%88%EF%BC%8C%E5%AE%89%E8%A3%85">https://nodejs.org/en&quot;，下载LTS长期支持版，安装</a>.<br>检查：<code>node -v</code> <code>npm -v</code></p>
+<h2 id="2，npm换源"><a href="#2，npm换源" class="headerlink" title="2，npm换源"></a>2，npm换源</h2><p><code>npm config set registry https://registry.npmmirror.com</code>  </p>
+<h2 id="3，安装hexo"><a href="#3，安装hexo" class="headerlink" title="3，安装hexo"></a>3，安装hexo</h2><p><code>npm install -g hexo-cli</code><br>检查：<code>hexo -v</code>  </p>
+<h2 id="4，hexo初始化"><a href="#4，hexo初始化" class="headerlink" title="4，hexo初始化"></a>4，hexo初始化</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init blog_name</span><br><span class="line">cd blog_name</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h2 id="5，查看效果"><a href="#5，查看效果" class="headerlink" title="5，查看效果"></a>5，查看效果</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s //打开本地服务</span><br><span class="line">```  </span><br><span class="line">浏览器打开http://localhost:4000看效果  </span><br><span class="line">命令行中Ctrl+C关闭本地服务</span><br><span class="line">## 6，配置git  </span><br><span class="line"></span><br><span class="line">github新建repo，名称github_username.github.io（github_username换成自己的github用户名）</span><br><span class="line"></span><br><span class="line">安装git</span><br></pre></td></tr></table></figure>
+<p>git config –global user.name “xxxxxx”<br>git config –global user.email “<a href="mailto:&#120;&#x78;&#120;&#120;&#120;&#x78;&#64;&#120;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;">&#120;&#x78;&#120;&#120;&#120;&#x78;&#64;&#120;&#x78;&#x78;&#46;&#x63;&#111;&#x6d;</a>“<br>ssh-keygen -t rsa -C “your_email”</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">在&quot;C:\Users\username\ .ssh&quot;目录找到id_rsa.pub文件  </span><br><span class="line">在Github的设置中，找到SSH and GPG keys，新建SSH Key，记事本打开id_rsa.pub文件，将内容复制到Key，标题随便起，添加Key。  </span><br><span class="line"></span><br><span class="line">## 7，部署  </span><br><span class="line">打开`_config.yml`，底部deploy改成</span><br></pre></td></tr></table></figure>
+<p>deploy:<br>  type: git<br>  repository: <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#111;&#x6d;</a>:github_username&#x2F;github_username.github.io.git<br>  branch: main</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">运行`npm install hexo-deployer-git --save`  </span><br><span class="line"></span><br><span class="line">部署代码：</span><br></pre></td></tr></table></figure>
+<p>hexo clean<br>hexo generate<br>hexo deploy</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">## 8，cloudflare配置（自定义域名+cdn加速，可省略）  </span><br><span class="line">[![a.png](https://i.postimg.cc/VvK3myKY/a.png)](https://postimg.cc/H87S9NGK)  </span><br><span class="line">添加如上几条dns记录，**暂时都关掉代理，设成仅dns；ssl/tls设成完全（严格）**  </span><br><span class="line"></span><br><span class="line">## 9，github pages 配置  </span><br><span class="line">来到GitHub repo settings中的pages页面，  </span><br><span class="line">[![b.png](https://i.postimg.cc/mZ1XrHhY/b.png)](https://postimg.cc/fkZj2kcy)  </span><br><span class="line">如图，三步。  </span><br><span class="line">回到cloudflare，打开代理。</span><br><span class="line"></span><br><span class="line">## 10，NexT主题</span><br></pre></td></tr></table></figure>
+<p>cd hexo-site<br>git clone <a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a> themes&#x2F;next</p>
+<pre><code>打开站点`_config.yml`，  
+翻到最后，修改为：`theme: next`
+
+## 11，NexT配置/美化  
+个人喜好，自行百度
+</code></pre>
 ]]></content>
   </entry>
 </search>
