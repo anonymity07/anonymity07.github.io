@@ -2783,6 +2783,7 @@ header.header {
   }
 }
 body {
+  cursor: url("https://cdn.jsdelivr.net/gh/kaix2301/pictures/img202201071208706.cur"), auto;
   background: url("https://pic.imgdb.cn/item/6596c295871b83018a665d84.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2810,11 +2811,4 @@ body {
 }
 .comments {
   background: rgba(255,255,255,0.7) none repeat scroll !important;
-}
-.post {
-  margin-top: 60px;
-  padding: 20px;
-  margin-bottom: 60px;
-  -webkit-box-shadow: 0 0 5px #788072;
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
