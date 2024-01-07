@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GitHub Pages配置自定义域名+CDN加速（Cloudflare）</title>
+    <url>/2023/12/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/</url>
+    <content><![CDATA[<h2 id="一-效果"><a href="#一-效果" class="headerlink" title="一.效果"></a>一.效果</h2><p>加速前<br><a href="https://postimg.cc/Lgd4v3Ss"><img src="https://i.postimg.cc/5yyH4sk8/07153-FC0-DAEB-4-C84-8050-9-D2-B375-A9-F04.jpg" alt="07153-FC0-DAEB-4-C84-8050-9-D2-B375-A9-F04.jpg"></a><br>加速后<br><a href="https://postimg.cc/w72Hsp1M"><img src="https://i.postimg.cc/htWG64gL/63-EE1-C66-2564-43-F7-983-C-9287-DE9-B8-D00.jpg" alt="63-EE1-C66-2564-43-F7-983-C-9287-DE9-B8-D00.jpg"></a></p>
+<p>可以看到加速后大部分地区都是绿的</p>
+<h2 id="二-方法"><a href="#二-方法" class="headerlink" title="二.方法"></a>二.方法</h2><p>cloudflare注册账号绑定自定义域名，dns添加cname解析@和www到github pages地址（xxx.github.io），到github仓库的pages设置界面</p>
+<p><a href="https://postimg.cc/5XtJBRz3"><img src="https://i.postimg.cc/P5WqjGrB/B0-C55-CF4-BFB7-4-DF9-BFC0-6-E404-B9-F4675.jpg" alt="B0-C55-CF4-BFB7-4-DF9-BFC0-6-E404-B9-F4675.jpg"></a></p>
+<p>在cusdom domain一栏添加自己的自定义域名，点击save<br>把cloudflare里的ssl调成flexible。<br>完事。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>2022-2-18-优质网站推荐</title>
     <url>/2023/12/31/2022-2-18-%E4%BC%98%E8%B4%A8%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>分享几个有用的网站，收录自互联网，侵删</p>
@@ -14,13 +24,9 @@
 <h1 id="。。。。。。有时间慢慢更（偷懒）"><a href="#。。。。。。有时间慢慢更（偷懒）" class="headerlink" title="。。。。。。有时间慢慢更（偷懒）"></a>。。。。。。有时间慢慢更（偷懒）</h1>]]></content>
   </entry>
   <entry>
-    <title>GitHub Pages配置自定义域名+CDN加速（Cloudflare）</title>
-    <url>/2023/12/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/</url>
-    <content><![CDATA[<h2 id="一-效果"><a href="#一-效果" class="headerlink" title="一.效果"></a>一.效果</h2><p>加速前<br><a href="https://postimg.cc/Lgd4v3Ss"><img src="https://i.postimg.cc/5yyH4sk8/07153-FC0-DAEB-4-C84-8050-9-D2-B375-A9-F04.jpg" alt="07153-FC0-DAEB-4-C84-8050-9-D2-B375-A9-F04.jpg"></a><br>加速后<br><a href="https://postimg.cc/w72Hsp1M"><img src="https://i.postimg.cc/htWG64gL/63-EE1-C66-2564-43-F7-983-C-9287-DE9-B8-D00.jpg" alt="63-EE1-C66-2564-43-F7-983-C-9287-DE9-B8-D00.jpg"></a></p>
-<p>可以看到加速后大部分地区都是绿的</p>
-<h2 id="二-方法"><a href="#二-方法" class="headerlink" title="二.方法"></a>二.方法</h2><p>cloudflare注册账号绑定自定义域名，dns添加cname解析@和www到github pages地址（xxx.github.io），到github仓库的pages设置界面</p>
-<p><a href="https://postimg.cc/5XtJBRz3"><img src="https://i.postimg.cc/P5WqjGrB/B0-C55-CF4-BFB7-4-DF9-BFC0-6-E404-B9-F4675.jpg" alt="B0-C55-CF4-BFB7-4-DF9-BFC0-6-E404-B9-F4675.jpg"></a></p>
-<p>在cusdom domain一栏添加自己的自定义域名，点击save<br>把cloudflare里的ssl调成flexible。<br>完事。</p>
+    <title>2022-2-2-这个博客开放啦！This Blog Opens!</title>
+    <url>/2023/12/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/</url>
+    <content><![CDATA[<p>做个记录</p>
 ]]></content>
   </entry>
   <entry>
@@ -45,12 +51,6 @@
 <p>博文文件名格式：yyyy-mm-dd-name.md(name为博客标题)；文章路径：_posts文件夹下</p>
 </blockquote>
 <p>删除原仓库的文章，新建一篇文章(文件名格式如上），在里面用markdown写下你想写的内容吧！<br>博客到这里已经建好了，接下来要做的：个性化，统计，评论系统，等等，以后再说。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>2022-2-2-这个博客开放啦！This Blog Opens!</title>
-    <url>/2023/12/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/</url>
-    <content><![CDATA[<p>做个记录</p>
 ]]></content>
   </entry>
   <entry>
