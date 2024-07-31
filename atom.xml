@@ -6,7 +6,7 @@
   <link href="http://dzhan.eu.org/atom.xml" rel="self"/>
   
   <link href="http://dzhan.eu.org/"/>
-  <updated>2023-12-31T15:34:35.651Z</updated>
+  <updated>2024-07-31T16:01:53.489Z</updated>
   <id>http://dzhan.eu.org/</id>
   
   <author>
@@ -17,18 +17,107 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>建站记-2</title>
-    <link href="http://dzhan.eu.org/2023/12/31/%E5%BB%BA%E7%AB%99%E8%AE%B0-2/"/>
-    <id>http://dzhan.eu.org/2023/12/31/%E5%BB%BA%E7%AB%99%E8%AE%B0-2/</id>
-    <published>2023-12-31T08:28:16.343Z</published>
-    <updated>2023-12-31T15:34:35.651Z</updated>
+    <title>2024年了，linux好用吗</title>
+    <link href="http://dzhan.eu.org/2024/07/31/linux/"/>
+    <id>http://dzhan.eu.org/2024/07/31/linux/</id>
+    <published>2024-07-31T15:27:03.484Z</published>
+    <updated>2024-07-31T16:01:53.489Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;（全文共526字，预计阅读时间1-2分钟） </summary>
+    <summary type="html">&lt;p&gt;linux曾被诟病GUI难用，门槛高，软件生态匮乏…但经过多年发展，linux在用户体验、软件生态及外观设计等方面已经取得了显著突破。2024年，linux已经没那么难用了。&lt;/p&gt;
+&lt;h2 id=&quot;一-GUI&quot;&gt;&lt;a href=&quot;#一-GUI&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub Pages配置自定义域名+CDN加速（Cloudflare）</title>
+    <link href="http://dzhan.eu.org/2024/07/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/"/>
+    <id>http://dzhan.eu.org/2024/07/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/</id>
+    <published>2024-07-31T14:53:09.966Z</published>
+    <updated>2023-12-31T10:01:01.133Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一-效果&quot;&gt;&lt;a href=&quot;#一-效果&quot; class=&quot;headerlink&quot; title=&quot;一.效果&quot;&gt;&lt;/a&gt;一.效果&lt;/h2&gt;&lt;p&gt;加速前&lt;br&gt;&lt;a href=&quot;https://postimg.cc/Lgd4v3Ss&quot;&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2022-2-18-优质网站推荐</title>
+    <link href="http://dzhan.eu.org/2024/07/31/2022-2-18-%E4%BC%98%E8%B4%A8%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
+    <id>http://dzhan.eu.org/2024/07/31/2022-2-18-%E4%BC%98%E8%B4%A8%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</id>
+    <published>2024-07-31T14:53:09.966Z</published>
+    <updated>2023-12-30T16:30:46.160Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;分享几个有用的网站，收录自互联网，侵删&lt;/p&gt;
+&lt;h2 id=&quot;音乐&quot;&gt;&lt;a href=&quot;#音乐&quot; class=&quot;headerlink&quot; title=&quot;音乐&quot;&gt;&lt;/a&gt;音乐&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2022-2-2-这个博客开放啦！This Blog Opens!</title>
+    <link href="http://dzhan.eu.org/2024/07/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/"/>
+    <id>http://dzhan.eu.org/2024/07/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/</id>
+    <published>2024-07-31T14:53:09.966Z</published>
+    <updated>2023-12-30T16:30:17.399Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;做个记录&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>建站记</title>
+    <link href="http://dzhan.eu.org/2024/07/31/2022-2-5-%E5%BB%BA%E7%AB%99%E8%AE%B0/"/>
+    <id>http://dzhan.eu.org/2024/07/31/2022-2-5-%E5%BB%BA%E7%AB%99%E8%AE%B0/</id>
+    <published>2024-07-31T14:53:09.966Z</published>
+    <updated>2023-12-31T10:01:36.746Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章简单记录一下本博客的建站过程。&lt;/p&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Fork一个jekyll模板仓库(感谢&lt;a</summary>
         
       
     
@@ -39,9 +128,9 @@
   
   <entry>
     <title>小米4a路由器刷入openwrt</title>
-    <link href="http://dzhan.eu.org/2023/12/31/2023-6-12-%E5%B0%8F%E7%B1%B34a%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E5%85%A5openwrt/"/>
-    <id>http://dzhan.eu.org/2023/12/31/2023-6-12-%E5%B0%8F%E7%B1%B34a%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E5%85%A5openwrt/</id>
-    <published>2023-12-30T16:23:08.844Z</published>
+    <link href="http://dzhan.eu.org/2024/07/31/2023-6-12-%E5%B0%8F%E7%B1%B34a%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E5%85%A5openwrt/"/>
+    <id>http://dzhan.eu.org/2024/07/31/2023-6-12-%E5%B0%8F%E7%B1%B34a%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E5%85%A5openwrt/</id>
+    <published>2024-07-31T14:53:09.966Z</published>
     <updated>2023-12-30T16:28:58.567Z</updated>
     
     
@@ -64,98 +153,10 @@
   </entry>
   
   <entry>
-    <title>GitHub Pages配置自定义域名+CDN加速（Cloudflare）</title>
-    <link href="http://dzhan.eu.org/2023/12/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/"/>
-    <id>http://dzhan.eu.org/2023/12/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/</id>
-    <published>2023-12-30T16:23:08.842Z</published>
-    <updated>2023-12-31T10:01:01.133Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;一-效果&quot;&gt;&lt;a href=&quot;#一-效果&quot; class=&quot;headerlink&quot; title=&quot;一.效果&quot;&gt;&lt;/a&gt;一.效果&lt;/h2&gt;&lt;p&gt;加速前&lt;br&gt;&lt;a href=&quot;https://postimg.cc/Lgd4v3Ss&quot;&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2022-2-18-优质网站推荐</title>
-    <link href="http://dzhan.eu.org/2023/12/31/2022-2-18-%E4%BC%98%E8%B4%A8%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
-    <id>http://dzhan.eu.org/2023/12/31/2022-2-18-%E4%BC%98%E8%B4%A8%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</id>
-    <published>2023-12-30T16:23:08.840Z</published>
-    <updated>2023-12-30T16:30:46.160Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;分享几个有用的网站，收录自互联网，侵删&lt;/p&gt;
-&lt;h2 id=&quot;音乐&quot;&gt;&lt;a href=&quot;#音乐&quot; class=&quot;headerlink&quot; title=&quot;音乐&quot;&gt;&lt;/a&gt;音乐&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>建站记</title>
-    <link href="http://dzhan.eu.org/2023/12/31/2022-2-5-%E5%BB%BA%E7%AB%99%E8%AE%B0/"/>
-    <id>http://dzhan.eu.org/2023/12/31/2022-2-5-%E5%BB%BA%E7%AB%99%E8%AE%B0/</id>
-    <published>2023-12-30T16:23:08.837Z</published>
-    <updated>2023-12-31T10:01:36.746Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这篇文章简单记录一下本博客的建站过程。&lt;/p&gt;
-&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Fork一个jekyll模板仓库(感谢&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2022-2-2-这个博客开放啦！This Blog Opens!</title>
-    <link href="http://dzhan.eu.org/2023/12/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/"/>
-    <id>http://dzhan.eu.org/2023/12/31/2022-2-2-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%BC%80%E6%94%BE%E5%95%A6%EF%BC%81This%20Blog%20Opens!/</id>
-    <published>2023-12-30T16:23:08.835Z</published>
-    <updated>2023-12-30T16:30:17.399Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;做个记录&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="http://dzhan.eu.org/2023/12/30/hello-world/"/>
-    <id>http://dzhan.eu.org/2023/12/30/hello-world/</id>
-    <published>2023-12-30T13:58:59.682Z</published>
+    <link href="http://dzhan.eu.org/2024/07/31/hello-world/"/>
+    <id>http://dzhan.eu.org/2024/07/31/hello-world/</id>
+    <published>2024-07-31T14:53:09.966Z</published>
     <updated>2023-12-30T13:58:59.682Z</updated>
     
     
@@ -164,6 +165,27 @@
         
         
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>建站记-2</title>
+    <link href="http://dzhan.eu.org/2024/07/31/%E5%BB%BA%E7%AB%99%E8%AE%B0-2/"/>
+    <id>http://dzhan.eu.org/2024/07/31/%E5%BB%BA%E7%AB%99%E8%AE%B0-2/</id>
+    <published>2024-07-31T14:53:09.966Z</published>
+    <updated>2023-12-31T15:34:35.651Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;（全文共526字，预计阅读时间1-2分钟） </summary>
         
       
     
