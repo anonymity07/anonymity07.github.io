@@ -1,4 +1,3 @@
-http://dzhan.eu.org/2024/07/31/linux/
 http://dzhan.eu.org/2024/07/31/%E5%BB%BA%E7%AB%99%E8%AE%B0-2/
 http://dzhan.eu.org/2024/07/31/2022-2-5-%E5%BB%BA%E7%AB%99%E8%AE%B0/
 http://dzhan.eu.org/2024/07/31/2022-12-4-GitHub%20Pages%E9%85%8D%E7%BD%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+CDN%E5%8A%A0%E9%80%9F%EF%BC%88Cloudflare%EF%BC%89/

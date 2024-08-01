@@ -6,7 +6,7 @@
   <link href="http://dzhan.eu.org/atom.xml" rel="self"/>
   
   <link href="http://dzhan.eu.org/"/>
-  <updated>2024-07-31T16:01:53.489Z</updated>
+  <updated>2023-12-31T10:01:01.133Z</updated>
   <id>http://dzhan.eu.org/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>2024年了，linux好用吗</title>
-    <link href="http://dzhan.eu.org/2024/07/31/linux/"/>
-    <id>http://dzhan.eu.org/2024/07/31/linux/</id>
-    <published>2024-07-31T15:27:03.484Z</published>
-    <updated>2024-07-31T16:01:53.489Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;linux曾被诟病GUI难用，门槛高，软件生态匮乏…但经过多年发展，linux在用户体验、软件生态及外观设计等方面已经取得了显著突破。2024年，linux已经没那么难用了。&lt;/p&gt;
-&lt;h2 id=&quot;一-GUI&quot;&gt;&lt;a href=&quot;#一-GUI&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>GitHub Pages配置自定义域名+CDN加速（Cloudflare）</title>
